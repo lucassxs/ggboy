@@ -33,7 +33,9 @@ ggboy(rstats)
 ![](man/figures/README-unnamed-chunk-3-1.png)<!-- -->
 
 An approximation of the Game Boy body can be added to the plot by
-setting `graphic = TRUE`.
+setting `graphic = TRUE` (crop must also be set to TRUE). The font used
+for the buttons is [*NES Console Controller Font -
+MrShrike*](https://www.deviantart.com/mrshrike/art/NES-Console-Controller-Font-141383845).
 
 ``` r
 patchwork::wrap_plots(ggboy(rstats, graphic = T), ggboy(hk, graphic = T))

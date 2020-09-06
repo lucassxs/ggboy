@@ -43,7 +43,7 @@ ggplot()+
 
 
 # The screen is element 44 (for the current drawing!)
-se <- 44
+se <- 35
 
 screen_w <- max(bg[[se]]$coords$x) - min(bg[[se]]$coords$x)
 screen_h <- max(bg[[se]]$coords$y) - min(bg[[se]]$coords$y)
